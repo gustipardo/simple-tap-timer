@@ -2,6 +2,11 @@
 
 Simple Tap Timer is an Obsidian plugin to run quick timers directly inside your notes.
 
+## Demo
+This demo shows timer usage, reset-all, and save-session flow.
+
+![Simple Tap Timer demo](./demo-simple-tap-timer.gif)
+
 ## What it does
 - Render interactive timers from markdown code blocks.
 - Start/stop each timer with one tap.
