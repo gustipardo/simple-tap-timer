@@ -1,0 +1,10 @@
+{
+  "id": "simple-tap-timer",
+  "name": "Simple Tap Timer",
+  "version": "0.0.1",
+  "minAppVersion": "1.4.0",
+  "description": "A minimal Obsidian timer plugin with one-tap start/stop, note-level timer exclusivity, reports, and session logging.",
+  "author": "Local",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

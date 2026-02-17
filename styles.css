@@ -1,0 +1,45 @@
+.stt-container {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--background-secondary);
+}
+
+.stt-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stt-container.is-running {
+  border-color: var(--interactive-accent);
+}
+
+.stt-title {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.stt-time {
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.stt-button {
+  min-width: 96px;
+  font-weight: 600;
+}
+
+.stt-report-container {
+  padding: 8px 0;
+}
+
+.stt-report-button {
+  width: 100%;
+}
