@@ -12,6 +12,13 @@ Simple Tap Timer is an Obsidian plugin to run quick timers directly inside your 
 
 ## Core timer block
 
+Minimum usage (required only):
+````markdown
+```tap-timer
+```
+````
+
+Fully customizable example:
 ````markdown
 ```tap-timer
 title: Push-ups
@@ -35,6 +42,13 @@ errorNotice: Could not update timer.
 
 ## Report block
 
+Minimum usage (required only):
+````markdown
+```tap-timer-report
+```
+````
+
+Fully customizable example:
 ````markdown
 ```tap-timer-report
 button: Generate timer table
@@ -56,6 +70,13 @@ This block inserts/updates a marked report section in the current note.
 
 ## Reset-all block
 
+Minimum usage (required only):
+````markdown
+```tap-timer-reset-all
+```
+````
+
+Fully customizable example:
 ````markdown
 ```tap-timer-reset-all
 button: Reset note timers
@@ -69,6 +90,13 @@ errorNotice: Could not reset timers.
 
 ## Save-session block
 
+Minimum usage (required only):
+````markdown
+```tap-timer-save-session
+```
+````
+
+Fully customizable example:
 ````markdown
 ```tap-timer-save-session
 button: Save session
